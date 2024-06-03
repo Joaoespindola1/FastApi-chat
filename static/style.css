@@ -82,4 +82,5 @@ ul li:nth-child(even) {
 
 ul li:hover {
     background-color: #003366;
+    color: #ffffff;
 }

@@ -13,6 +13,9 @@
             <button class="btn">Enviar</button>
         </form>
         <ul id='messages'>
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
         </ul>
     </div>
     
